@@ -106,11 +106,16 @@ def hackers(request):
 	return render(request,"hackers.html")
 
 def chat(request):
-	return render(request,'chat.html')
+	obj_chat = Chat.objects.all()
+
+	context={
+		'data1': obj_chat
+	}
+	return render(request,'chat.html',context)
 
 def chat_sender(request):
 	obj_chat = Chat()
-	chat = request.session['user']+""+request.GET['chat']
+	chat = request.session['user']+'\n---------------------\n'+request.GET['chat']
 	obj_chat.uid = request.session['id']
 	obj_chat.chat = chat
 	obj_chat.save()

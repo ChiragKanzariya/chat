@@ -1,11 +1,48 @@
+
+
 {% include 'navigation.html' %}
 
 {% if request.session.user %}
+<script type="text/javascript">
+var auto_refresh = setInterval(
+function ()
+{
+$('#load_tweets').load('{% url "fetch" %}').fadeIn("slow");
+}, 90); 
 
 
-<form action='{% url "chat_sender" %}'>
-	<input type='text' name='chat' required> <input type='submit' value='Send'>
+$(document).on('submit','chat_form',function(e){
+	e.preventDefault();
+
+	$.ajax({
+		url:'{% url "chat_sender" %}',
+		data:{
+			chat:$('#chat').val(),
+		},
+		success:function(){
+				alert("Send.");
+		}
+	});
+});
+
+ 
+
+
+
+</script>
+
+<form action='{% url "chat_sender" %}' class="form-group"> 
+<!-- <form id='chat_form'>-->
+	<div class="container">
+	<div class='row'>
+		<div class = "col-lg-9"><input type='text' id='chat' name='chat' class="form-control"> </div>
+		<div class="col-md-3"><input type='submit' value='Send' id = 'send' class="btn btn-success"></div>
+	</div>
+</div>
 </form>
+<div id="load_tweets"> </div>
+
+
 {% else %}
 <script type="text/javascript">
 	alert("Please Login. . .")

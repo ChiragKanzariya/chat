@@ -1,25 +1,24 @@
 
-{% include 'navigation.html' %}
-
-{% for data in data1 %}
+<!-- {% include 'navigation.html' %}
+-->
+<div class="container">
+	<div class='row alert-success'>
+{% for data in data1 reversed%}
 
 
 {% if data.uid == request.session.id%}
-
-	<div class="row alert alert-success">
-    <div class="col-md-10"></div>
-    <div class="col-md-2"><label>"{{data.chat}}"</label></div>
-</div>
+	<div class='row alert-success'>
 	
+		<div class="col-md-1"> </div>
+  		<div class="col-md-11 text-right"><label><pre>{{data.chat}}</pre></label></div>
+  </div>
 	{% else %}
 
-	<div class="row alert alert-success">
-    <div class="col-md-2"></div>
-    <div class="col-md-10 "><label>{{data.chat}}</label></div>
-</div>
+	<div class='row alert-success'>
+    	<div class="col-md-10"><label><pre>{{data.chat}}</pre></label></div>
+    	<div class="col-md-2"></div>
+	</div>
 	<hr>
 	{% endif %}
-
-
-
 {% endfor %}
+
