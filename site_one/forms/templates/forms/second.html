@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Second File</title>
+</head>
+<body>
+	First Name = {{ fnm }} <BR>
+	Last name = {{ lnm }}<BR>
+	Email = {{ email }}<BR>
+	Password = {{ password }}<BR>
+	<hr>
+
+
+ {% for item in query_results %}
+ <h1>{{ item.firstname }}</h1>
+
+{% endfor %}
+
+<form action="{% url 'show' %}">
+	<input type="submit" value="Show"></input>
+</form>
+
+</body>
+</html>

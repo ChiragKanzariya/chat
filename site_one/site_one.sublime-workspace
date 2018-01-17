@@ -1,0 +1,510 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"form",
+				"forms"
+			],
+			[
+				"for",
+				"form	Tag"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"http",
+				"http2"
+			],
+			[
+				"Model",
+				"Model"
+			],
+			[
+				"httpRe",
+				"HttpResponse"
+			],
+			[
+				"vie",
+				"views"
+			],
+			[
+				"sta",
+				"staticfiles"
+			],
+			[
+				"STAI",
+				"Static"
+			],
+			[
+				"STA",
+				"Static"
+			],
+			[
+				"sign",
+				"SignUpAdmin"
+			],
+			[
+				"auto",
+				"auto_now"
+			],
+			[
+				"connec",
+				"connection"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "login/views.py",
+			"settings":
+			{
+				"buffer_size": 353,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "login/urls.py",
+			"settings":
+			{
+				"buffer_size": 156,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "login/templates/login/index.html",
+			"settings":
+			{
+				"buffer_size": 437,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "login/templates/login/checker.html",
+			"settings":
+			{
+				"buffer_size": 54,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "forms/views.py",
+			"settings":
+			{
+				"buffer_size": 1025,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "forms/templates/forms/show.html",
+			"settings":
+			{
+				"buffer_size": 550,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site_one/settings.py",
+			"settings":
+			{
+				"buffer_size": 3369,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/login/templates/login/checker.html",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/forms/views.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/login/templates/login/index.html",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/login/views.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/login/urls.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/site_one/settings.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/login/templates/login/login.html",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/login/templates/login.html",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/site_one/urls.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/forms/urls.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/forms/templates/forms/show.html",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/forms/templates/forms/index.html",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/forms/templates/forms/second.html",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/forms/templates/forms/delete.html",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/forms/forms.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/forms/models.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/HttpResponse/views.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/forms/index.html",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/example/views.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/example/templates/index.html",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/example/urls.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/forms/templates:forms:index.html",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/formControl/urls.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/formControl/forms.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/formControl/models.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/formControl/views.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/formControl/name.html",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/form_control/urls.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/form_control/views.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/form_control/apps.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/form_control/forms.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/form_control/name.html",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/HttpResponse/url.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/HttpResponse/apps.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/HttpResponse/admin.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/HttpResponse/models.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/example/apps.py",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/HttpResponse/html/httpResponse.html",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/HttpResponse/httpResponse.html",
+		"/Users/mayur.chhapra/Desktop/Workspace/site_one/example/templates/second.html",
+		"/Users/mayur.chhapra/Desktop/Django_project/src/simpleProject/settings.py",
+		"/Users/mayur.chhapra/Desktop/Django_project/src/simpleProject/urls.py",
+		"/Users/mayur.chhapra/Desktop/Django_project/src/simpleProject/homepage/views.py",
+		"/Users/mayur.chhapra/Desktop/Django_project/src/simpleProject/homepage/base.html",
+		"/Users/mayur.chhapra/Desktop/Django_project/src/simpleProject/homepage/home.html",
+		"/Users/mayur.chhapra/Desktop/my_project/src/homepage/models.py",
+		"/Users/mayur.chhapra/Desktop/my_project/src/homepage/admin.py",
+		"/Users/mayur.chhapra/Desktop/my_project/src/test_project/urls.py",
+		"/Users/mayur.chhapra/Desktop/my_project/src/signups/admin.py",
+		"/Users/mayur.chhapra/Desktop/my_project/src/signups/models.py",
+		"/Users/mayur.chhapra/Desktop/my_project/src/test_project/settings.py",
+		"/Users/mayur.chhapra/Desktop/my_project/src/signups/template/homepage.html",
+		"/Users/mayur.chhapra/Desktop/my_project/src/test_project/wsgi.py",
+		"/Users/mayur.chhapra/Desktop/my_project/src/signups/template/simple.html",
+		"/Users/mayur.chhapra/Desktop/my_project/src/signups/migrations/0001_initial.py",
+		"/Users/mayur.chhapra/Desktop/my_project/src/signups/apps.py",
+		"/Users/mayur.chhapra/Desktop/get-pip.py",
+		"/Users/mayur.chhapra/Desktop/test2.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"data",
+			"password",
+			"second",
+			".\n",
+			"path",
+			"]",
+			"')),\n",
+			"    ",
+			"(),",
+			"\n		",
+			"STATIC_URL",
+			"STATIC_",
+			"STATIC_DIRS",
+			"STATIC_U",
+			"True",
+			"'))\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "login/views.py",
+					"settings":
+					{
+						"buffer_size": 353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								297,
+								297
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "login/urls.py",
+					"settings":
+					{
+						"buffer_size": 156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								137,
+								137
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "login/templates/login/index.html",
+					"settings":
+					{
+						"buffer_size": 437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "login/templates/login/checker.html",
+					"settings":
+					{
+						"buffer_size": 54,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								54
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "forms/views.py",
+					"settings":
+					{
+						"buffer_size": 1025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								526,
+								565
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 48.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "forms/templates/forms/show.html",
+					"settings":
+					{
+						"buffer_size": 550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								103
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "site_one/settings.py",
+					"settings":
+					{
+						"buffer_size": 3369,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 71.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 217.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="{%url 'second' %}" method = 'get'>
+
+		{% csrf_token %}
+		{{myregistrationform.as_ul}}
+		<input type='submit' value='Submit'/>
+	</form>
+
+
+</body>
+</html>

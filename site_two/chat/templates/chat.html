@@ -1,0 +1,15 @@
+{% include 'navigation.html' %}
+
+{% if request.session.user %}
+
+
+<form action='{% url "chat_sender" %}'>
+	<input type='text' name='chat' required> <input type='submit' value='Send'>
+</form>
+{% else %}
+<script type="text/javascript">
+	alert("Please Login. . .")
+	window.location=" {% url 'login' %}"
+</script>
+{% endif %}
+

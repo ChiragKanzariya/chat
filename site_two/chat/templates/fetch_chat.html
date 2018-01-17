@@ -1,0 +1,25 @@
+
+{% include 'navigation.html' %}
+
+{% for data in data1 %}
+
+
+{% if data.uid == request.session.id%}
+
+	<div class="row alert alert-success">
+    <div class="col-md-10"></div>
+    <div class="col-md-2"><label>"{{data.chat}}"</label></div>
+</div>
+	
+	{% else %}
+
+	<div class="row alert alert-success">
+    <div class="col-md-2"></div>
+    <div class="col-md-10 "><label>{{data.chat}}</label></div>
+</div>
+	<hr>
+	{% endif %}
+
+
+
+{% endfor %}

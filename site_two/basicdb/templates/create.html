@@ -1,0 +1,74 @@
+<style>
+input[type=text], select, input[type=password], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+
+
+
+
+{% if id != null %} 
+{% with id=id.id name=id.name state=id.state city=id.city contact=id.contact password=id.password button="Update" %}
+
+<div>
+		<form action="{% url 'update' %}" method='get'>
+		{% csrf_token %}
+			Id:	<input type='number' name='id' value='{{id}}' disabled>
+				<input type='hidden' name='id' value='{{id}}'>
+			Name:<input type='text' name='name' value ="{{name}}">
+			State: <input type='text' name='state' value ="{{state}}">
+			City: <input type='text' name='city' value ="{{city}}">
+			Contact: <input type='number' name='contact' value ="{{contact}}">
+			Password:<input type='password' name='password' value ="{{password}}">
+			<input type='submit' name='update' value='{{button}}'>
+		</form>
+	</div>
+{% endwith %}
+{% endif %}
+
+{% if id == null %}
+
+{% with name="" state="" city="" contact="" password="" button="Save" %} 
+
+<div>
+		<form action="{% url 'save' %}" method='get'>
+		{% csrf_token %}
+			Id:<input type='text' name='id' value='Id will be assign to You.' disabled> 
+			Name: <input type='text' name='name' value ="{{name}}"> 
+			State:<input type='text' name='state' value ="{{state}}">
+			City: <input type='text' name='city' value ="{{city}}"> 
+			Contact: <input type='number' name='contact' value ="{{contact}}"> 
+			Password: <input type='password' name='password' value ="{{password}}"> 
+			<input type='submit' name='create' value='{{button}}'> 
+		</div>
+{% endwith %}
+{% endif %}

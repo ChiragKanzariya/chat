@@ -1,0 +1,48 @@
+ <style>
+input[type=text], select, input[type=password], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+
+<div>
+	<form action="{% if id %} {% url 'update' %} {% else %} {% url 'save' %} {% endif %}" method='get'>
+	{% csrf_token %}
+		Id:	<input type='text' name='id' value='{% if id %}{{id.id}}{% else %}Id will assign to you {% endif %}' disabled>
+			<input type='hidden' name='id' value='{% if id %}{{id.id}}{% else %}{% endif %}'>
+		Name:<input type='text' name='name' value ="{% if id %}{{id.name}}{% endif %}">
+		State: <input type='text' name='state' value ="{% if id %}{{id.state}}{% endif %}">
+		City: <input type='text' name='city' value ="{% if id %}{{id.city}}{% endif %}">
+		Contact: <input type='text' name='contact' value ="{% if id %}{{id.contact}}{% endif %}">
+		Password:<input type='password' name='password' value ="{% if id %}{{id.password}}{% endif %}">
+		<input type='submit' name='{% if id %}update{% else %}save{% endif %}' value='{% if id %}Update{% else %}Save{% endif %}'>
+	</form>
+</div>
